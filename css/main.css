@@ -34,6 +34,10 @@ header{
     margin-right: 20px;
     color: #000000;
 }
+.nav-main-list a:hover{
+    text-decoration:underline;
+}
+
 /*No utilice este codigo del profesor ya que no hacia el cambio de cursor a mano, utilizando como una imagen de fondo*/
 /*.nav-main-list .menu-icon{*/
     /*Trae el icon directamente de internet*/
@@ -52,8 +56,21 @@ header{
     border-radius: 50%;
     margin-left: 10px;
 }
-.nav-main-list .icon{
-    width: 16px;
-    height: 16px;
-    opacity: 60%;/*Opaca la imagen*/
+.nav-main-list .user:hover{
+    box-shadow: 0px 0px 3px 2px #82838547;   
 }
+.nav-main-list .icon{
+    width: 25px;
+    height: 25px;
+    opacity: 70%;/*Opaca la imagen*/
+    border-radius: 100px;
+}
+.nav-main-list .icon:hover{
+    background-color: rgb(226, 225, 225);
+    box-shadow: 0px 0px 1px 7px rgb(226, 225, 225);
+}
+
+
+
+
+
