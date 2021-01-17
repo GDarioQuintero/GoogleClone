@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 main{
     margin-top: 60px;
     text-align: center;
@@ -10,7 +13,7 @@ main .main-logo{
 main .main-input{
     width: 600px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 main .main-input-container{
     width: 595px;
@@ -48,4 +51,27 @@ main .main-input .micro-icon{
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+    width: auto;
+}
+main .main-buttons button{
+    height: 36px;
+    padding: 0px 18px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    color: #524d4c;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+main .main-buttons button:hover{
+    border: 1px solid #dddfe2;
+    box-shadow: 0 1px 1px #efefef;
 }
