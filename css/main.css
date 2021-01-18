@@ -34,7 +34,7 @@ header{
     margin-right: 20px;
     color: #000000;
 }
-.nav-main-list a:hover{
+a:hover{
     text-decoration:underline;
 }
 
@@ -145,4 +145,50 @@ main .main-buttons button:hover{
 }
 main .main-buttons button:focus{
     border: 1px solid #5c9afe;
+}
+/*ESTILOS DEL FOOTER---------------------------------*/
+footer {
+    width: 100%;
+    height: 94px;
+    position: absolute;/*Ubica en la parte inferior el footer sin scroll*/
+    bottom: 0;/*Ubica en la parte inferior el footer sin scroll*/
+    background-color: #f2f2f2;
+}
+footer .footer-pais{
+    height: 47px;
+    margin-left: 30px;
+    padding-top: 15px;
+} 
+footer .footer-pais span{
+    font-size: 1.5rem;
+    color: #86778d;
+}
+footer .footer-main{
+    height: 47px;
+    /*NO UTILICE ESTE CODIGO, PARA POSICIONAR MEJOR EL CONTENIDO DEL FOOTER CON DISPLAY FLEX*/
+    /*Divide el contenedor en el numero de columnas que le indiquemos*/
+    /*display: grid;*/
+    /*Indica el numero de columnas del display grid*/
+    /*grid-template-columns: 1fr 1fr;*/
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e1e2e5;
+}
+footer .footer-main ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 30px;
+}
+footer .footer-main ul a {
+    color: #86778d;
+    padding-right: 30px;
+}
+footer .footer-main .footer-main-left{
+    justify-self: left;/*Justifica a la derecha*/
+    width: 60%;
+}
+footer .footer-main .footer-main-right{
+    justify-content:flex-end;
+    width: 40%;
 }
