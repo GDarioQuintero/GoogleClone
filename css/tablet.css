@@ -1,0 +1,21 @@
+footer {
+    height: 141px;
+}
+footer .footer-main{    
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-main .footer-main-left{
+    width: 90%;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-main .footer-main-right{
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
